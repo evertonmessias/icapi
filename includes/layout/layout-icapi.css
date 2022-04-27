@@ -1,0 +1,11 @@
+/* icapi PLUGIN */
+.div_icapi1{
+    margin-top: -100px;
+}
+.div_icapi1 p{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.div_icapi1 p:hover{
+    border: 1px solid #666;
+}

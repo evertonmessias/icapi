@@ -1,0 +1,100 @@
+/* icapi PLUGIN */
+nav{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 330px;
+    height: 60px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin-right: 15px;     
+}
+img{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+}
+.settings-icapi, .about-icapi, .product-icapi{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 99%;
+    min-height: 250px;
+    border: 1px solid #888;
+    margin-top: 15px;
+    margin-left: -5px;
+    padding: 20px;
+}
+.settings-icapi .title, .about-icapi .title, .product-icapi .title{
+    color: #f00;
+    
+}
+.settings-icapi hr, .about-icapi hr, .product-icapi hr{
+    background-color: #bbb !important;
+    border: 1px solid #bbb !important;
+}
+.settings-icapi table{
+    width: 65em;
+    border-spacing: 0;
+}
+.product-icapi table{
+    width: 50%;
+    border-spacing: 0;
+}
+.product-icapi table th,.product-icapi table td{
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+
+.settings-icapi .wp-editor-wrap{
+    width: 150%;
+}
+
+.settings-icapi table img{
+    height: 100%;   
+}
+
+.settings-icapi input[type=number]{
+    width: 7em;
+    font-weight: 400;
+}
+.settings-icapi input[type=email],.settings-icapi input[type=text]{
+    width: 40em;
+    font-weight: 400;
+}
+.settings-icapi textarea{
+    width: 100%;
+    font-weight: 400;
+    margin-bottom: -3px;
+}
+
+.settings-icapi table td:nth-child(1),.settings-icapi table td:nth-child(3){
+    width: 4em;
+}
+
+.settings-icapi table td:nth-child(1) div{
+    text-align: center !important;
+    font-weight: 600;
+}
+.settings-icapi table td:nth-child(2){
+    width: 40em;   
+}
+.settings-icapi table td:nth-child(2) input{
+    width: 100%;
+}
+
+#heateor_sss_meta{
+    display: none;
+}
+
+.meta-box-sortables input.postmeta-projetos,.meta-box-sortables input.postmeta-post{
+    width: 100%;
+}
