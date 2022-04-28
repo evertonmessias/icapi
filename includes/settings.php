@@ -9,19 +9,19 @@ function icapi_page_html()
 			<?php settings_fields('icapi_option_grup'); ?>
 			<!-- URL ********************************** -->
 			<label>
-				<h4 class="title">URL da API 1: </h4><input type="text" id="icapi_1" name="icapi_1" value="<?php echo get_option('icapi_1'); ?>" />&emsp;<span>Uso:&ensp;<b>[icapi1]</b></span>
+				<h4 class="title">URL da API 1: </h4><input type="text" id="icapi_1" placeholder="https://site.com/arquivo.html" name="icapi_1" value="<?php echo get_option('icapi_1'); ?>" />&emsp;<span>Uso:&ensp;<b>[icapi1]</b></span>
 			</label>
 			<br><br><!-- *************************************** -->
 			<label>
-				<h4 class="title">URL da API 2: </h4><input type="text" id="icapi_2" name="icapi_2" value="<?php echo get_option('icapi_2'); ?>" />&emsp;<span>Uso:&ensp;<b>[icapi2]</b></span>
+				<h4 class="title">URL da API 2: </h4><input type="text" id="icapi_2" placeholder="https://site.com/arquivo.html" name="icapi_2" value="<?php echo get_option('icapi_2'); ?>" />&emsp;<span>Uso:&ensp;<b>[icapi2]</b></span>
 			</label>
 			<br><br><!-- *************************************** -->
 			<label>
-				<h4 class="title">URL da API 3: </h4><input type="text" id="icapi_3" name="icapi_3" value="<?php echo get_option('icapi_3'); ?>" />&emsp;<span>Uso:&ensp;<b>[icapi3]</b></span>
+				<h4 class="title">URL da API 3: </h4><input type="text" id="icapi_3" placeholder="https://site.com/arquivo.html" name="icapi_3" value="<?php echo get_option('icapi_3'); ?>" />&emsp;<span>Uso:&ensp;<b>[icapi3]</b></span>
 			</label>
 			<br><br><!-- *************************************** -->
 			<label>
-				<h4 class="title">URL da API 4: </h4><input type="text" id="icapi_4" name="icapi_4" value="<?php echo get_option('icapi_4'); ?>" />&emsp;<span>Uso:&ensp;<b>[icapi4]</b></span>
+				<h4 class="title">URL da API 4: </h4><input type="text" id="icapi_4" placeholder="https://site.com/arquivo.html" name="icapi_4" value="<?php echo get_option('icapi_4'); ?>" />&emsp;<span>Uso:&ensp;<b>[icapi4]</b></span>
 			</label>
 			<br><br><!-- *************************************** -->
 
